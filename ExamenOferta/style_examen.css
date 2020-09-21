@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#333366;
+}
+
+.navbar{background-color: #CCCCCC;
+height: 12%;
+color:#333366;
+}
+
+.navbar-brand{color:#333366;}
+
+.fa-arrow-circle-left{color:#333366;
+}
+
+form{
+    width:70%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+form section {margin-top: 4%;}
+
+form div{margin-top: 4%;}
+
