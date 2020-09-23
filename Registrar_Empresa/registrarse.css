@@ -1,0 +1,57 @@
+.sec-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    left: 10%;
+}
+h2 {
+    font-family: 'Assistant', sans-serif;
+}
+h5 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+
+.bg-transparent {
+    border:2px #39ACA6 solid;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    left: 35%;
+}
+
+
+.card-text {
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    left: 20%;
+    font-size: 25px;
+}
+.form-control {
+    border:2px rgb(131, 122, 122) solid;
+}
+.btn-danger {
+    background-color: #39ACA6;
+    border: 2px #39ACA6 solid;
+    border-radius: 10%;
+    color: white;
+}
+.material-icons, .ntb {
+    position: absolute;
+    right: 10%;
+    left: 90%;
+}
