@@ -1,26 +1,30 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
-    color:#333366;
+    color: #333366;
 }
+/* modificaciones Geral */
 
-.bg-pink{
+.bg-pink {
     background-color: #333366;
-color:#ffffff;
+    color: #ffffff;
 }
 
-.navbar{
-    height: 5%;
+.letracolor {
+    color: white;
+    font-weight:lighter;
+}
+.letracolor:hover {
+    color: white;
+    font-weight:lighter;
 }
 
-.fa-home {
-    color:rgb(255, 255, 255);
+.fa-bars {
+    font-size: 30px;
+    color: #ffffff;
 }
 
-.nav-item{
-    margin-left: 10%;
-}
-
-/*.btn-primary{
-
-}
-*/
