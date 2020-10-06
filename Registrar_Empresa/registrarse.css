@@ -51,7 +51,7 @@ h5 {
 .btn-danger {
     background-color: #39ACA6;
     border: 2px #39ACA6 solid;
-
+    border-radius: 10%;
     color: white;
 }
 .material-icons, .ntb {
