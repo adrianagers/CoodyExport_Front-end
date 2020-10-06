@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editar Datos Empresa</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!--Imagen-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <a class="navbar-brand" style="width: 20%;">
+                <img src="./imagenes/LOGO-OSCURO.png" width="80%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#main-menu" aria-controls="main-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Menu home-->
+            <div class="collapse navbar-collapse form-inline" id="main-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="perfil.html" class="nav-link">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Notificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Ofertas</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link">Salir</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--titulo-->
+        <h1 class="text-center">EDITAR DATOS DE LA EMPRESA</h1>
+        <p>
+            <img src="./imagenes/user1.png" width="150" height="150" alt="..."
+                class="img-thumbnail"> <a href="">Editar Imagen</a>
+        </p>
+        <!--datos a editar-->
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="Nom">Nombre Empresa:</label>
+                        <input type="text" class="form-control"
+                            id="Nom" value="" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="Nit">Nit:</label>
+                        <input type="number" class="form-control"
+                            id="Nit" value="" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="Num">Telefono1:</label>
+                        <input type="number" class="form-control"
+                            id="Num" value="" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="Num">Telefono2:</label>
+                        <input type="number" class="form-control"
+                            id="Num" value="" required>
+                    </div>
+                </div>
+
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="ciu">Ciudad:</label>
+                        <input type="text" class="form-control"
+                            id="Ciu" value="" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="Dir">Direccion:</label>
+                        <input type="text" class="form-control"
+                            id="Dir" value="" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form group col-md-8 mb-5">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control"
+                            id="inputEmail4">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form group col-md-8 mb-5">
+                        <label for="Des">Descripcion:</label>
+                        <textarea class="form-control" id="Des" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form group col-md-8 mb-5">
+                        <label for="Re">Reportes:</label>
+                        <textarea class="form-control" id="Re" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-pink">Actualizar</button>
+            </form>
+            
+            <!--card-->
+            <div class="container mt-5 p-4">
+                <h1 class="text-center mb-5 border-bottom border-success">GALERIA</h1>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/empresa.jpg" class="card-img-top">
+                            <div class="card-body">
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-primary">ELIMINAR</a>
+                                <a class="card-link btn btn-primary">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/equipo.jpg" class="card-img-top">
+                            <div class="card-body">
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-primary">ELIMINAR</a>
+                                <a class="card-link btn btn-primary">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/trabajo.jpg" class="card-img-top">
+                            <div class="card-body">  
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-primary">ELIMINAR</a>
+                                <a class="card-link btn btn-primary">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-pink">GUARDAR</button>
+  
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
