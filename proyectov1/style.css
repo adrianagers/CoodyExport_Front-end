@@ -1,16 +1,16 @@
-.bg-blue{
+/* .bg-blue{
     background-color:#333366;
     color: #ffffff;
-}
+} */
 
-.navbar{
+/* .navbar{
     height: 5%;
-}
+} */
 
-h1{
+/* h1{
     font-family: 'Open Sans', sans-serif;
     margin-top: 2%; 
-}
+} */
 
 .img-thumbnail{
     margin-left: 23%;
@@ -37,17 +37,44 @@ p a{
     margin-top: 160%;
  }
 
- .btn-blue{
+ /* .btn-blue{
     background-color:#333366;
     color: #ffffff;
-}
+} */
 
-.btn-pink{
+/* .btn-pink{
     background-color:#62CBBD;
     color: #ffffff;
-}
+} */
 .height-carousel {
     max-height:  400px;
     min-height: 400px;
   }
+  /* cambiosgeraldine */
+  .bg-pink {
+    background-color: #333366dc;
+    transition: all 1.5s ease;
+    color: white;
+    font-weight: lighter;
+}
+
+.main {
+    background-color: #333366;
+    color: #ffffff;
+}
+
+.letracolor {
+    color: white;
+    font-weight: lighter;
+}
+
+.letracolor:hover {
+    color: white;
+    font-weight: lighter;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: #ffffff;
+}
 

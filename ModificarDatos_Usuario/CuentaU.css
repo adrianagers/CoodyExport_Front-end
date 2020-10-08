@@ -30,9 +30,9 @@ color:#ffffff;
 	justify-content: right;
 	align-content: right;
 }
-.form-dates, .form-dates2 {
+/* .form-dates, .form-dates2 {
 	border: 100px  rgb(255, 255, 255) solid;
-}
+} */
 .One {
 	text-align: center;
 	font-family: 'Red Hat Display', sans-serif;
@@ -131,7 +131,7 @@ color:#ffffff;
 	height: 200px;
 	border-radius: 100%;
 	border: 4px solid rgba(94, 91, 91, 0.856);
-	background: url("./Imagenes/d.png");
+	background: url("./Imagenes/usuario.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -142,6 +142,7 @@ color:#ffffff;
 	position: absolute;
 	width:100%;
 	margin-top: -77px;
+	
 }
 .usuarioPerfil button{
 	z-index:0;
@@ -265,6 +266,53 @@ color:#ffffff;
 	font-family: 'Quicksand', sans-serif;
 	font-size:12px;
 	font-weight: 800;
+}
+/* geralldine Modifica */
+.bg-pink {
+    background-color: transparent;
+    transition: all 1.5s ease;
+    color: white;
+    font-weight: lighter;
+}
+
+.main {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.letracolor {
+    color:  #333366;
+    font-weight: lighter;
+}
+
+.letracolor:hover {
+    color:#333366;
+    font-weight: lighter;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: #333366;
+}
+.container-footer {
+    width: 100%;
+    background: #333366;
+    padding: 10px;
+}
+.copyright {
+    color: white;
+}
+.copyright a {
+    text-decoration: none;
+    color: white;
+}
+.information {
+    text-align: right;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Estilo para Móviles */

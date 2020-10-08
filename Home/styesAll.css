@@ -95,7 +95,7 @@ a.ejemplo1 {
 
 .container-footer {
     width: 100%;
-    background: #1F1E1E;
+    background:#333366;
     padding: 10px;
 }
 
@@ -168,9 +168,7 @@ a.ejemplo1 {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 500px;
-    /* background: linear-gradient(to right, #0c082caa, #0d0b2c8d, #13133387); */
-    
+    height: 500px;    
 }
 .letras-slaide{
     font-size: 40px;

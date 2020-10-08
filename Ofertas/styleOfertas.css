@@ -11,20 +11,27 @@ body {
 
 .bg-pink {
     background-color: #333366;
+    transition: all 1.5s ease;
+    color: white;
+    font-weight: lighter;
+}
+
+.main {
+    background-color: #333366;
     color: #ffffff;
 }
 
 .letracolor {
     color: white;
-    font-weight:lighter;
+    font-weight: lighter;
 }
+
 .letracolor:hover {
     color: white;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 .fa-bars {
     font-size: 30px;
     color: #ffffff;
 }
-
