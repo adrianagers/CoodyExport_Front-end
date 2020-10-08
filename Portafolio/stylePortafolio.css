@@ -1,0 +1,26 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#333366;
+}
+
+.bg-pink{
+    background-color: #333366;
+color:#ffffff;
+}
+
+.navbar{
+    height: 5%;
+}
+
+.fa-home {
+    color:rgb(255, 255, 255);
+}
+
+.nav-item{
+    margin-left: 10%;
+}
+
+/*.btn-primary{
+
+}
+*/
