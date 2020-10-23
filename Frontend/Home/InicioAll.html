@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="../img/coody.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styesAll.css">
+  <title>Coody Expert </title>
+</head>
+
+<body>
+  <!--header y  nav-->
+  <nav id="menu" class="navbar navbar-expand-lg fixed-top bg-pink">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./imagenes/LOGO-OSCURO.png" alt="" width="130px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../onePageMorse/inicio.html">¿Quienes Somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor" data-toggle="modal" data-target="#exampleModal">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../inicioSesion.html">Iniciar Sesión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor btn btn-primary"
+              href="../Registrar_Usuario/registrarUsuario.html">Registrarte!</a>
+          </li><br>
+          <!-- realizar un modal small para el registro de empresa y de usuario -->
+          <!-- <li class="nav-item">
+            <a class="nav-link letracolor btn btn-primary"
+              href="../Registrar_Empresa/registrarEmpresa.html">Eres empresa!</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item height-carousel active">
+        <img src="./Imagenes/produ.jpeg" class="d-block w-100" alt="cod">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide"><b>Programa tu trabajo ideal</b></h5>
+            <p class="letras-slaide-p">Aqui encontraras los mejores talentos en desarrolla web</p>
+            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+              ¡Postulate! </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item height-carousel">
+        <img src="./Imagenes/tra.jpg" class="d-block w-100" alt="off">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide"> <b>Programa tu trabajo ideal</b> </h5>
+            <p class="letras-slaide-p">Aqui encontraras los mejores talentos en desarrolla web</p>
+            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+              ¡Postulate! </a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item height-carousel">
+        <img src="./Imagenes/prog.png" class="d-block w-100" alt="prog">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide"> <b>Programa tu trabajo ideal</b> </h5>
+            <p class="letras-slaide-p">Aqui encontraras los mejores talentos en desarrolla web</p>
+            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+              ¡Postulate! </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--Imagen con Ondulación-->
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ffffff;"></path>
+      </svg></div>
+  </div>
+<!-- modal de contactos -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Contactanos!</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body backgoud">
+          <!-- grid -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                
+                <div class="flex-direc">
+                  <div class="icon-ubica">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <h3 class="titulo-form">Telefono</h3>
+                  <p>(+57) 323 900 00 00</p>
+
+                </div>
+                <div class="flex-direc">
+                  <div class="icon-ubica">
+                    <i class="fas fa-envelope-open-text"></i>
+                  </div>
+                  <h3 class="titulo-form">Correo</h3>
+                  <p>morsegroupb@gmail.com</p>
+
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.65940912732!2d-74.09267068504955!3d4.642406700000024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a39b65e4b45%3A0xb245795852177049!2sServicio%20Nacional%20de%20Aprendizaje%20SENA!5e0!3m2!1ses-419!2sco!4v1600893550998!5m2!1ses-419!2sco"
+                  width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+
+              </div>
+              <div class="col-sm-7 mt-5">
+                <form>
+                  <div class="form-row">
+                    <div class="col-6">
+                      <label for="inputAddress">Nombre </label>
+                      <input type="text" class="form-control" placeholder="nombre">
+                    </div>
+                    <div class="col-6">
+                      <label for="inputAddress">Apellido </label>
+                      <input type="text" class="form-control" placeholder="apellido">
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="col-6">
+                      <label for="inputAddress">Correo </label>
+                      <input type="text" class="form-control" placeholder="Correo">
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleFormControlFile1"></label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Dejanos Aqui tu opinion </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-color-for">Enviar</button>
+                </form>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cards-->
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card-body">
+        <h5 class="card-title letras-slaide">Eres empresa!</h5>
+        <p class="card-text letras-slaide-p">Deja tus convocatorias de Desarrollo Aquí</p>
+        <a href="../Registrar_Empresa/registrarEmpresa.html" class="btn btn-primary">Unete!</a>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="containers">
+      <div class="row">
+        <div class="col-sm-5">
+          <img class="imagenesExtre" src="./Imagenes/industria.jpg" style="height: 100%; width: 100%;">
+        </div>
+        <div class="col-sm-7">
+          <h1> Expertos En La Industria</h1>
+          <p class="lead">Programadoras De software, Desarrollado Por su Interes y Aplicabilidad a las Empresas
+            Independientemente de sus Saberes Previos Sobre el Mundo de la Técnologia.</p>
+          <hr class="my-4">
+          <center><a class="btn btn-primary btn-lg" href="../onePageMorse/inicio.html" role="button"> ¡Nosotras! </a>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Articulo con un Card-->
+  <section>
+
+
+    <div class="galeria-port">
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./Imagenes/reclutadoores.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-text">Personal calificado </h2>
+            <p class="card-text">Encontraras a los mejores programadores que se adaptan a lo que estas buscando </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./Imagenes/facilRapido.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-text">Proceso Facil, rapido y eficaz</h2>
+            <p class="card-text">Puedes realizar su proceso de seleción mas rápido facil que nunca </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./Imagenes/tiempo-dinero.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-text">Ahorrate tiempo y dinero</h2>
+            <p class="card-text">Herramienta diseñada para optimizar y reducir el tiempo y costo de su seleccion </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- bienvenida -->
+  <section>
+    </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <h1> Bienvenido a Coody Expert</h1>
+            <p class="lead">¿Buscas Personal? Registrate y Encontraras a los Programadores
+              más destacados del Mundo Técnologico.</p>
+            <hr class="my-4">
+            <center><a href="../Registrar_Usuario/registrarUsuario.html" class="btn btn-dark"> Registrate! </a></center>
+          </div>
+          <div class="col-sm-5">
+            <img class="imagenesExtre"src="./Imagenes/bienvenido.jpg" style="height: 100%; width: 100%;">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+ 
+  <!--Footer/ Pie de Pagina-->
+  <footer>
+    <div class="container-footer">
+      <div class="copyright">
+        DATOS &copy 2020 | <a href="InicioAll.html">{oody Expert</a>
+      </div>
+
+      <div class="information">
+        <a href="#"> Información Compañia </a> |
+        <a href="#"> Privacidad y Politica </a> |
+        <a href="#"> Terminos y Condiciones </a> |
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/437f265f51.js" crossorigin="anonymous"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($("#menu").offset().top > 90) {
+        $("#menu").addClass("main");
+      } else {
+        $("#menu").removeClass("main");
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
