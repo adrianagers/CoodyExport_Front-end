@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./miCuenta.css">
+    <link rel="shortcut icon" href="../img/coody.png" type="image/x-icon">
+    <title>Modificar Datos Empresa</title>
+</head>
+<body>
+ 
+  <!-- menu principal -->
+  <nav id="menu" class="navbar navbar-expand-lg fixed-top bg-pink">
+    <div class="container">
+      <a class="navbar-brand" href="../Home_Empresa/inicioEmpr.html">
+        <img src="./imagenes/LOGO-OSCURO.png" alt="" width="130px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link letracolor" href="../Ofertas/Ofertas.html">Crear Oferta</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link letracolor " href="../ModificarDatos_Empresa/CuentaE.html">Editar Datos</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor" href="../reclutador/modificarEmpresa.html">Buscar Desarrolladores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../Notificaciones_Empresa/notiEmpre.html">Notificaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../perfil_Empresa/perfilEmpresa.html">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../Home/InicioAll.html">Salir</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <section class="sec-flex">
+        <div id="perfil-head">
+    
+          <!--Una Capa Sobre el perfil -->
+          <div class="header btn-light" style="height: 400px;" >
+            <!-- Código para Boton de Despliegue -->
+            <button class="mui-btn">
+              <div class="text btn-light">Cambiar Fondo</div>
+            </button>
+          </div>
+    
+          <div class="avatar"></div>
+    
+          <div class="usuarioPerfil">
+            <center>
+              <!-- "Editar Logo" -->
+              <button class="mui-btn mui-btn-primary">
+                <div class="text">Editar Logo</div>
+              </button>
+              
+              <button class="mui-btn mui-btn-primary">
+                <div class="text">No Guardar y Regresar</div>
+              </button>
+            </center>
+          </div><br><br>
+        </div>
+        <div class="container">
+          <!-- Título del Perfil, Datos Personales parte Superior del Usuario-->
+          <div class="nombreU">
+            <h1 class="One">Nombre De La Empresa</h1>
+          </div><br><br>
+    
+          <form class="mui-form"></form>
+          <h1 class="titulos"> Descripción Empresarial</h1><br>
+          <div class="form-group col-md-12"> 
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"
+              rows="3"></textarea>
+          </div>
+    
+                      <form class="form-dates">
+                        <h1 class="titulos">Informacion Personal</h1><hr><br>
+    
+                        <div class="form-group col-md-6 mui-textfield
+                          mui-textfield--float-label">
+                          <label for="inputAddress">Nombre Gerente</label>
+                          <input type="text" class="form-control"
+                            id="inputAddress"
+                            placeholder="Ingrese Nombre" required>
+                        </div>
+                        <div class="form-group col-md-6 mui-textfield
+                          mui-textfield--float-label">
+                          <label for="inputAddress2">Apellido Gerente</label>
+                          <input type="text" class="form-control"
+                            id="inputAddress2"
+                            placeholder="Ingrese Apellido" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="@example.com">
+                        </div>
+                      </form>
+                      <h1 class="titulos">Informacion De la Empresa</h1><hr><br>
+                      <div class="container">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="Nom">Nombre Empresa:</label>
+                                    <input type="text" class="form-control"
+                                        id="Nom" value="" required>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="Nit">Nit:</label>
+                                    <input type="number" class="form-control"
+                                        id="Nit" value="" required>
+                                </div>
+                            </div>
+            
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="Num">Telefono:</label>
+                                    <input type="number" class="form-control"
+                                        id="Num" value="" required>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="Num">Telefono Opcional:</label>
+                                    <input type="number" class="form-control"
+                                        id="Num" value="" required>
+                                </div>
+                            </div>
+            
+            
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="ciu">Ciudad:</label>
+
+                                    <select id="inputCity" class="form-control">
+                                      <option selected>Bogotá D.C</option>
+                                      <option>Medellín</option>
+                                      <option>Calí</option>
+                                      <option>Barranquilla</option>
+                                      <option>Cartagena</option>
+                                      <option>Bucaramanga</option>
+                                      <option>Manizales</option>
+                                      <option>Pereira</option>
+                                      <option>Cúcuta</option>
+                                      <option>Ibagué</option>
+                                      <option>Valledupar</option>
+                                      <option>Boyáca</option>
+                                      <option>Pasto</option>
+                                      <option>Armenia</option>
+                                      <option>Villavicencio</option>
+                                      <option>Neiva</option>
+                                      <option>Soacha</option>
+                                      <option>Soledad</option>
+                                    </select>
+                                  </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="Dir">Dirección:</label>
+                                    <input type="text" class="form-control"
+                                        id="Dir" value="" required>
+                                </div>
+                            </div>
+            
+                            <div class="form-row">
+                                <div class="form group col-md-8 mb-5">
+                                    <label for="inputEmail4">Email:</label>
+                                    <input type="email" class="form-control"
+                                        id="inputEmail4">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form group col-md-8 mb-5">
+                                    <label for="Re">Reportes:</label>
+                                    <textarea class="form-control" id="Re" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </form>
+    
+                            <div class="form-group col-md-8">
+                              <label for="inputPrograma2">¿Para Que Busca Personal?</label>
+                              <input type="text" class="form-control" id="inputPrograma2">
+                            </div><br><br>
+    
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck" required> Acépto Términos y Condiciones</label><br>
+                          </div><br>
+                          <center><button type="submit" class="btn btn-dark">Actualizar</button></center>
+                        </div><br><br><br>
+                      </div>
+    
+                    </form>
+                  </div>
+    
+                </div>
+    
+              </div>
+    
+            </section>
+            <div class="container mt-5 p-4">
+                <h1 class="text-center mb-5 border-bottom border-success">Portafolio</h1>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/empresa.jpg" class="card-img-top">
+                            <div class="card-body">
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-dark">ELIMINAR</a>
+                                <a class="card-link btn btn-dark">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/equipo.jpg" class="card-img-top">
+                            <div class="card-body">
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-dark">ELIMINAR</a>
+                                <a class="card-link btn btn-dark">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./imagenes/trabajo.jpg" class="card-img-top">
+                            <div class="card-body">  
+                            </div>
+                            <div class="card-body">
+                                <a class="card-link btn btn-dark">ELIMINAR</a>
+                                <a class="card-link btn btn-dark">AGREGAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+              <div class="container-footer">
+                <div class="copyright">
+                  DATOS &copy 2020 | <a href="InicioAll.html">{oody Expert</a>
+                </div>
+          
+                <div class="information">
+                  <a href="#"> Información Compañia </a> |
+                  <a href="#"> Privacidad y Politica </a> |
+                  <a href="#"> Terminos y Condiciones </a> |
+                </div>
+              </div>
+            </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+            <script>
+              $(window).scroll(function () {
+                if ($("#menu").offset().top > 90) {
+                  $("#menu").addClass("main");
+                } else {
+                  $("#menu").removeClass("main");
+                }
+              });
+            </script>
+</body>
+</html>
