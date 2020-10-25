@@ -28,7 +28,7 @@
 }
 
 #hero {
-    background: linear-gradient(to right, #121213d9, #39172592), url(../img/desarrolladora.jpg);
+    background: linear-gradient(to right, #121213d9, #39172592), url(../../img/Programacion32.jpg);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -123,7 +123,7 @@
 }
 
 .colimgagen {
-    background-image: url(../img/banner-images.png);
+    background-image: url(../../img/ProgramacionE1.jpg);
     background-size: cover;
     height: auto;
 }
