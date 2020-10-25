@@ -2,16 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
-
 .articulo {
     margin: 40px;
     padding: 35px;
     background: rgba(162, 0, 255, 0.295);
 }
-
-
-
 .height-carousel {
     max-height: 600px;
     min-width: 100%;
@@ -29,7 +24,6 @@
     padding: 10px;
     text-align: center;
 }
-
 .group--color .containers {
     background: #050572f1;
     color: white;
@@ -39,32 +33,24 @@
     margin-bottom: 30px;
     padding: 15px;
 }
-
 .margin__title {
     margin: 15px;
     font-size: 1.8em;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
 }
-
 .main__txt {
     padding: 8px;
     text-align: center;
 }
-
-
-
 .btn-lg {
     text-align: right;
     justify-content: center;
 }
-
-
 a.ejemplo1 {
     background: linear-gradient(180deg, #32c953 0%, #46c7d8 100%);
     color: black;
 }
-
 .container-footer {
     width: 100%;
     background: #333366;
@@ -74,23 +60,19 @@ a.ejemplo1 {
 .main__about__description {
     flex-wrap: wrap;
 }
-
 .footer {
     max-width: 1200px;
     display: flex;
     margin: auto;
     justify-content: space-between;
 }
-
 .copyright {
     color: white;
 }
-
 .copyright a {
     text-decoration: none;
     color: white;
 }
-
 .information {
     text-align: right;
 }
@@ -99,7 +81,6 @@ a.ejemplo1 {
     text-decoration: none;
     color: white;
 }
-
 .bg-pink {
     background-color: #333366;
     /* background-color: transparent; */
@@ -107,17 +88,14 @@ a.ejemplo1 {
     color: white;
     font-weight: lighter;
 }
-
 /* .main {
     background-color: #333366;
     color: #ffffff;
 } */
-
 .letracolor {
     color: white;
     font-weight: lighter;
 }
-
 .letracolor:hover {
     color: white;
     font-weight: lighter;
