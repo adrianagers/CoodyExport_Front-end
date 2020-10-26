@@ -34,7 +34,7 @@ form div{margin-top: 4%;}
     /* background-color: transparent; */
     transition: all 1.5s ease;
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .main {
@@ -44,12 +44,12 @@ form div{margin-top: 4%;}
 
 .letracolor {
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .letracolor:hover {
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .fa-bars {

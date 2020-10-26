@@ -61,7 +61,7 @@
     background-color: transparent;
     transition: all 1.5s ease;
     color: white;
-    font-weight: lighter;
+    font-weight:bold;
 }
 
 .main {
@@ -71,12 +71,12 @@
 
 .letracolor {
     color: white;
-    font-weight: lighter;
+    font-weight:bold;
 }
 
 .letracolor:hover {
     color: white;
-    font-weight: lighter;
+    font-weight:bold;
 }
 
 .fa-bars {
@@ -100,6 +100,21 @@
 }
 .letras-slaide{
     font-size: 40px;
+}
+.btn-primarys2 {    
+    text-align: center;    
+    width: 220px;
+    border:2px solid #17c3d6c4 ;
+    color: rgba(0, 0, 0, 0.589);
+    font-weight: bold;
+    padding: 10px;
+    transition:all .5s ease;
+}
+.btn-primarys2:hover {
+    color: #264a4ed7;
+    font-weight: bold;
+    background-color: rgba(177, 221, 247, 0.483);
+    border-color: transparent;
 }
 .btn-primarys {    
     text-align: center;    
