@@ -1479,12 +1479,12 @@ h1 .label-arrow-left:before {
 }
 .letracolor {
 color: white;
-font-weight: lighter;
+font-weight: bold;
 }
 
 .letracolor:hover {
 color: white;
-font-weight: lighter;
+font-weight: bold;
 }
 .container-footer {
   width: 100%;

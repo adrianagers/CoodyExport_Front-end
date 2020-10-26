@@ -105,7 +105,7 @@ a.ejemplo1 {
     /* background-color: transparent; */
     transition: all 1.5s ease;
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 /* .main {
@@ -115,12 +115,12 @@ a.ejemplo1 {
 
 .letracolor {
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .letracolor:hover {
     color: white;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .fa-bars {

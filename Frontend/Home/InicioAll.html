@@ -35,8 +35,8 @@
             <a class="nav-link letracolor " href="../inicioSesion.html">Iniciar Sesión</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link letracolor btn btn-primary"
-              href="../Registrar_Usuario/registrarUsuario.html">Registrarte!</a>
+            <a class="nav-link letracolor btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"
+              href="../Registrar_Usuario/registrarUsuario.html">Inscribete!</a>
           </li><br>
           <!-- realizar un modal small para el registro de empresa y de usuario -->
           <!-- <li class="nav-item">
@@ -61,8 +61,13 @@
           <div class="texto-encima">
             <h5 class="letras-slaide"><b>Programa tu Trabajo Ideal</b></h5>
             <p class="letras-slaide-p">Aquí Encontraras los mejores Talentos en Desarrolla Web</p>
-            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
-              ¡Postulate! </a>
+            <div class="flex">
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+                ¡Postulate! </a>
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Empresa/registrarEmpresa.html" role="button">
+                  Eres Empresa! </a>
+            </div>
+           
           </div>
         </div>
       </div>
@@ -72,8 +77,12 @@
           <div class="texto-encima">
             <h5 class="letras-slaide"> <b>Programa tu Trabajo Ideal</b> </h5>
             <p class="letras-slaide-p">Aquí encontraras los mejores talentos en desarrolla web</p>
-            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
-              ¡Postulate! </a>
+            <div class="flex">
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+                ¡Postulate! </a>
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Empresa/registrarEmpresa.html" role="button">
+                  Eres Empresa! </a>
+            </div>
           </div>
         </div>
       </div>
@@ -83,8 +92,12 @@
           <div class="texto-encima">
             <h5 class="letras-slaide"> <b>Programa tu Trabajo Ideal</b> </h5>
             <p class="letras-slaide-p">Aquí encontraras los mejores talentos en desarrolla web</p>
-            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
-              ¡Postulate! </a>
+            <div class="flex">
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+                ¡Postulate! </a>
+              <a class="btn btn-primarys btn-lg" href="../Registrar_Empresa/registrarEmpresa.html" role="button">
+                  Eres Empresa! </a>
+            </div>
           </div>
         </div>
       </div>
@@ -179,7 +192,35 @@
       </div>
     </div>
   </div>
+
+  <!-- modal de registro -->
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Inscribete!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="flex">
+          <a class="btn btn-primarys2 btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+            ¡Postulate! </a>
+          <a class="btn btn-primarys2 btn-lg" href="../Registrar_Empresa/registrarEmpresa.html" role="button">
+              Eres Empresa! </a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
   <!--Cards-->
+  
   <div class="row">
     <div class="col-sm-12">
       <div class="card-body">
@@ -220,7 +261,7 @@
       </div>
       <div class="col-sm-3">
         <div class="card" style="width: 18rem;">
-          <img src="../img/programacion23.jpg" class="card-img-top" alt="...">
+          <img src="../img/programacion23.jpg" class="card-img-top" alt="..." height="190px">
           <div class="card-body">
             <h2 class="card-text">Proceso Fácil, rapido y eficaz</h2>
             <p class="card-text">Puedes realizar su proceso de seleción mas rápido fácil que Nunca. </p>
@@ -265,6 +306,12 @@
   <!--Footer/ Pie de Pagina-->
   <footer>
     <div class="container-footer">
+      <div class="flex">
+        <a href="https://www.facebook.com/Coody-Expert-100691765174664/?modal=admin_todo_tour"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/coodyexpert/"><i class="fab fa-instagram"></i></a>
+        <i class="fas fa-envelope"></i>
+      </div>
+      
       <div class="copyright">
         DATOS &copy 2020 | <a href="InicioAll.html">{oody Expert</a>
       </div>

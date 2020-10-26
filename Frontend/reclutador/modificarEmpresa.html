@@ -8,6 +8,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../img/coody.png" type="image/x-icon">
     <title>perfilUsuario</title>
 </head>
 
@@ -52,6 +53,61 @@
 
     <!-- galeria de los mejores postulantes -->
     <h3 style="margin-top: 110px;text-align: center;">Aqui puedes encontrar a <br><b>los mejores programadores 👍</b>  para tu empresa  </h1>
+        <!-- buscador -->
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+              </div>
+              <div class="col-sm-8">
+                <div class="container mt-5 ">
+                    <input type="text" id="formulario"  class="form-control col-sm-10 " style="position: absolute; ">
+                    <button class="btn btn-info mb-2" id="boton" style="position: relative; margin-left:91% ;  "><i class="fas fa-search"></i></button>
+                    <ul id="resultado">
+                        
+                    </ul>
+                </div>
+              </div>
+              <div class="col-sm">
+              </div>
+            </div>
+          </div>
+        
+        <script >
+            const empresas =[
+                {nombre: 'php'},
+                {nombre: 'JavaScript' },
+                {nombre: 'Java'},
+                {nombre: 'Docker'},
+                {nombre: 'Python '}
+                
+            ]
+            const formulario = document.querySelector('#formulario');
+            const boton = document.querySelector('#boton');
+            const resultado = document.querySelector('#resultado');
+            const filtrar = ()=>{
+                //console.log(formulario.value);
+                resultado.innerHTML='';
+                const texto = formulario.value.toLowerCase();
+                for(let empresa of empresas){
+                    let nombre = empresa.nombre.toLowerCase();
+                    if (nombre.indexOf(texto) !== -1) {
+                        resultado.innerHTML += ` 
+                        <li>${empresa.nombre}</li>
+                        `
+                    }
+                }
+                if (resultado.innerHTML === '') {
+                    resultado.innerHTML += `
+                    <li>Empresa no encontrada...</li>
+                    `
+                }
+            }
+            boton.addEventListener('click', filtrar)
+            formulario.addEventListener('keyup', filtrar)
+        
+            filtrar();
+        </script>
+        <!-- fin buscador -->
     <div class="galeria-port mt-5" >
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
